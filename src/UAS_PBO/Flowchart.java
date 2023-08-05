@@ -13,19 +13,15 @@ import java.util.Scanner;
  * Teknik Informatika - Univ. Islam Balitar
  * 2022 - 2023
  */
-public class UAS2 {
-
+public class Flowchart {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in); 
         int a = 100, b = 25, hasil;
         
         System.out.println("======Program Perhitungan Matematika======\n");
         System.out.println("a = 100, \t b = 25\n"); 
         System.out.println("1.Penjumlahan");
-        System.out.println("2.Pengurangan");
-        System.out.println("3.Perkalian");
-        System.out.println("4.Pembagian"); 
+        System.out.println("2.Pengurangan"); 
         System.out.print("\nMasukkan Pilihan : "); 
         int pilihan = scanner.nextInt();
 
@@ -39,17 +35,12 @@ public class UAS2 {
                 hasil = a - b; 
                 System.out.println("\n100 - 25 = " + hasil); 
             }
-            case 3 -> { 
-                hasil = a * b;
-                System.out.println("\n100 * 25 = " + hasil);
-                }
-            case 4 -> { 
-                hasil = a / b;
-                System.out.println("\n100 / 25 = " + hasil);
-                }
-            default -> System.out.println("\nPilihan Anda Salah!");
+            default -> System.out.println("\nPilihan Anda Tidak Ada Dalam Menu");
+  
         }
     }
     
- 
+   
+    
+  
 }
